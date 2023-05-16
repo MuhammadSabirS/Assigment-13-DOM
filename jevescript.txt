@@ -1,0 +1,50 @@
+1- How we can access HTML elements using DOM in javascript?
+
+  a:  Accessing an element by its ID:
+        let myElement = document.getElementById("myElementId");
+
+  b:  Accessing elements by their class name:
+        let myElements = document.getElementsByClassName("myClassName");
+
+  c:  Accessing elements by their tag name:
+         let myElements = document.getElementsByTagName("div");
+
+  d:  Accessing elements using CSS selectors:
+        let myElements = document.querySelectorAll(".myClassName");
+
+  e:   var first = moreParagraphs.firstChild
+
+  f:   var last = moreParagraphs.lastChild
+
+  g:   var second = first.nextSibling; 
+
+  h:   var second = last.previousSibling 
+
+  i:   var parent = last.parentNode
+
+
+
+2- What are the activities that we can perform using DOM?
+
+   a: HTML elements ko manipulate karna:
+        Hum DOM ke zariye HTML elements ki properties aur attributes ko
+        change kar sakte hain. Hum text, images, links, buttons aur kisi
+        bhi dusre HTML element ki styling, position, visibility aur
+        size ko bhi control kar sakte hain.
+
+   b: Events ko handle karna:
+          DOM events jaise click, hover, submit, etc. ko handle karne ke
+          liye DOM ka use kiya jata hai. Hum event listeners ka use karke 
+          kisi bhi event ko detect kar sakte hain aur uske baad uske saath 
+          koi action perform kar sakte hain.
+
+  c:  Dynamic web pages banane ke liye:
+           DOM ke zariye hum dynamic web pages bhi bana sakte hain, jisme 
+           hum user ke input ke hisab se content ko update kar sakte hain.
+
+  d:  Animations create karne ke liye:
+           DOM ke zariye hum animations aur transitions bhi create kar sakte
+           hain, jaise ki images ka slide, fade-in aur fade-out effects, etc.    
+                       
+
+            
