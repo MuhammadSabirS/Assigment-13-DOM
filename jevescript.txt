@@ -46,5 +46,9 @@
            DOM ke zariye hum animations aur transitions bhi create kar sakte
            hain, jaise ki images ka slide, fade-in aur fade-out effects, etc.    
                        
+3- What are event listeners in the DOM?
 
-            
+   a:      In DOM, event listeners are a mechanism that
+           allows JavaScript code to "listen" for specific events that occur in an 
+           HTML document or its elements.
+   b:      Event listeners enable interactivity and responsiveness in web pages.   
